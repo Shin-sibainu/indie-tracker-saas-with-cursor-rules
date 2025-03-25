@@ -16,13 +16,7 @@
 - **Tailwind CSS** (v3.4.1) - ユーティリティファースト CSS フレームワーク
   - tailwind-merge - クラス名の最適化
   - tailwindcss-animate - アニメーション機能
-
-### 状態管理・データフェッチ
-
-- **SWR** (v2.2.5) - データフェッチとキャッシュ
-- **React Query** (v3.39.3) - サーバー状態管理
-- **React Hook Form** (v7.53.0) - フォーム管理
-- **Zod** (v3.23.8) - スキーマ検証
+- **Shadcn/ui**
 
 ### 認証
 
@@ -34,6 +28,12 @@
 
 - **Prisma** (v5.11.0) - TypeSafe ORM
   - @prisma/client - データベースクライアント
+- Local SqLite(後に Supabase へ変更)
+
+## フォーム処理
+
+- Server Actions(with Next.js)
+- Zod: ^3.x (スキーマバリデーション)
 
 ## ユーティリティ
 
@@ -55,6 +55,10 @@
 - **ESLint** (v8.49.0) - コード品質管理
 - **Autoprefixer** (v10.4.15) - CSS ベンダープレフィックス自動付与
 - **PostCSS** (v8.4.30) - CSS トランスフォーメーション
+
+## デプロイメント
+
+- Vercel プラットフォーム推奨
 
 ## 特徴
 
